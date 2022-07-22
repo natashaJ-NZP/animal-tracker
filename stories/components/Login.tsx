@@ -20,7 +20,7 @@ export default function Login(props: any) {
                 <div className="title">
                     <h1 className="ml-0 mt-0 mb-5">Login</h1>
                 </div>
-                <label className="text-gray-700 font-bold text-sm">
+                <label className="text-gray-700 font-bold text-sm"> Email
                     <input
                         type="text" 
                         name="Email"
@@ -30,8 +30,7 @@ export default function Login(props: any) {
                     />
                 </label>
              
-                <label className="text-gray-700 font-bold text-sm">
-
+                <label className="text-gray-700 font-bold text-sm"> Password
                     <input 
                         type="text" 
                         name="Password"
